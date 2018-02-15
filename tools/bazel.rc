@@ -1,0 +1,7 @@
+build --cxxopt=-fsanitize=address
+build --linkopt=-fsanitize=address
+build --copt=-fsanitize=address
+build --cxxopt=-fsanitize=undefined
+build --linkopt=-fsanitize=undefined
+build --copt=-fsanitize=undefined
+build --linkopt=-lubsan
